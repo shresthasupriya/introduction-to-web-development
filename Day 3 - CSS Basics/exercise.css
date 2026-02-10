@@ -1,0 +1,61 @@
+.id-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center; 
+    
+    width: 450px;
+    background-color: #f0f0f0;
+    padding: 40px;          
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* 1. Header Box Model  */
+.card-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+/* 2. Photo Box Model */
+.photo-box {
+    width: 100%;           
+    height: 250px;
+    border: 2px solid #000; 
+    overflow: hidden;      
+    display: flex;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 3. Text Box Model (Center Aligned) */
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;     
+    width: 100%;
+    margin-top: 20px;
+}
+
+.name-highlight {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+    
+}
+
+.copyright-box {
+    margin-top: 30px;
+    font-size: 12px;
+}
